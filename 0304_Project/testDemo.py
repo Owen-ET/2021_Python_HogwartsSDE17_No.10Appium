@@ -50,8 +50,8 @@ class TestDemo(object):
         '''找到元素后点击元素退出循环，未找到元素继续滑动'''
         while(1<5):
             try:
-                self.driver.find_element(By.XPATH, loc).click()
-                return
+                element = self.driver.find_element(By.XPATH, loc)
+                return element
             except:
                 print("继续滑")
                 self.swipeUp()
@@ -82,7 +82,7 @@ class TestDemo(object):
         self.driver.find_element(By.XPATH, "//*[@text='工作台']").click()
         # self.swipe()
         # self.driver.find_element(By.XPATH,"//*[@text='打卡']").click()
-        self.findEle("//*[@text='打卡']")
+        self.findEle("//*[@text='打卡']").click()
         self.getExcept("//*[@text='立即使用']","没有找到按钮")
         self.driver.find_element(By.XPATH,"//*[@text='外出打卡']").click()
         self.getExcept("//*[@text='确定']", "没有定位失败弹框")
