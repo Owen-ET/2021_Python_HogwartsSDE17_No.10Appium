@@ -1,0 +1,14 @@
+caps:
+  platformName: "android"
+  deviceName: "emulator-5554"
+  appPackage: "com.tencent.wework"
+  appActivity: ".launch.LaunchSplashActivity"
+  noReset: True
+  skipServerInstallation: True        # 跳过UIautomator2 server安装
+  skipDeviceInitialization: True      # 跳过设备的初始化
+#  waitForIdleTimeout: 1
+#  automationName: "UiAutomator2"      # Toast内容
+#  dontStopAppOnReset: True            # 测试之前不停止app运行
+server:
+  ip: 127.0.0.1
+  port: 4723

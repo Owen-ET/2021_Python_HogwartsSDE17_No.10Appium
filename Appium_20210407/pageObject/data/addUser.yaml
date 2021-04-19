@@ -1,0 +1,6 @@
+name: "//*[contains(@text,'姓名')]/../*[@text='必填']"
+tel: "//*[contains(@text,'手机')]/..//*[@text='必填']"
+send: "//*[contains(@text,'自动发送')]"
+saveButton: "//*[@text='保存']"
+name_value: "zc8"
+tel_value: "13600000008"

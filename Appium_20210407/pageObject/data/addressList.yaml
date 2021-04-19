@@ -1,0 +1,2 @@
+inputAdd: "//*[@text='手动输入添加']"
+addUser: "//*[@text='添加成员']"
