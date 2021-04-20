@@ -5,9 +5,9 @@
 # @File    : addressList_page.py
 from appium.webdriver.common.mobileby import MobileBy
 
-from pageObject.page.addUser_page import AddUserPage
-from pageObject.page.base_page import Page
-from pageObject.utils.functions import Functions as Fun
+from Appium_20210407.pageObject.page.addUser_page import AddUserPage
+from Appium_20210407.pageObject.page.base_page import Page
+from Appium_20210407.pageObject.utils.functions import Functions as Fun
 
 class AddressListPage(Page):
 

@@ -5,9 +5,9 @@
 # @File    : main_page.py
 from appium.webdriver.common.mobileby import MobileBy
 
-from pageObject.page.addressList_page import AddressListPage
-from pageObject.page.base_page import Page
-from pageObject.utils.functions import Functions as Fun
+from Appium_20210407.pageObject.page.addressList_page import AddressListPage
+from Appium_20210407.pageObject.page.base_page import Page
+from Appium_20210407.pageObject.utils.functions import Functions as Fun
 
 
 class MainPage(Page):

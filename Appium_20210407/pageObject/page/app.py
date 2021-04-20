@@ -5,8 +5,8 @@
 # @File    : app.py
 from appium import webdriver
 
-from pageObject.page.main_page import MainPage
-from pageObject.utils.functions import Functions as Fun
+from Appium_20210407.pageObject.page.main_page import MainPage
+from Appium_20210407.pageObject.utils.functions import Functions as Fun
 
 
 class APP(object):

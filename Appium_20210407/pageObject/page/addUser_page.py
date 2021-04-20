@@ -5,8 +5,8 @@
 # @File    : addUser_page.py
 from appium.webdriver.common.mobileby import MobileBy
 
-from pageObject.page.base_page import Page
-from pageObject.utils.functions import Functions as Fun
+from Appium_20210407.pageObject.page.base_page import Page
+from Appium_20210407.pageObject.utils.functions import Functions as Fun
 
 class AddUserPage(Page):
 

@@ -3,7 +3,7 @@
 # @Time    : 2021/04/08 11:27
 # @Author  : zc
 # @File    : test_user.py
-from pageObject.page.app import APP
+from Appium_20210407.pageObject.page.app import APP
 
 
 class TestUser:
