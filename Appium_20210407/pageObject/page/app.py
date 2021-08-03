@@ -31,5 +31,5 @@ class APP(object):
 
 
     def goto_main(self):
-        """跳转主页1"""
+        """跳转主页12"""
         return MainPage(self.driver)
